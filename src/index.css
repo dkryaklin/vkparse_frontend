@@ -1,0 +1,76 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+a.menuLink {
+    text-decoration: none;
+}
+
+div.appHeader {
+    position: fixed !important;
+}
+
+div.appHeader h1 {
+    order: 2;
+}
+
+div.appHeader .appSearch {
+    order: 3;
+    display: flex;
+    align-items: center;
+}
+
+.appSearch .searchButton {
+    position: absolute !important;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: inherit;
+    background-color: #fff !important;
+    height: auto !important;
+}
+
+.appTable {
+    padding: 64px 0 56px 0;
+}
+
+div.message {
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, sans-serif;
+    color: rgba(0, 0, 0, 0.870588);
+    font-size: 24px;
+    color: #808080;
+    pointer-events: none;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.footerLabel {
+    margin-left: 0 !important;
+}
+
+.iframeExport {
+    position: absolute;
+    left: -1000px;
+    top: -1000px;
+    opacity: 0;
+}
+
+.disabledButton {
+    background-color: #aaaaaa;
+}
+
+div.static {
+    color: #333;
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    padding: 84px 0 0 20px;
+}
